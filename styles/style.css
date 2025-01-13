@@ -1,6 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Work Sans", serif; */
-/* Frame 4 */
+
+.main{
+background-color: aliceblue;
+}
+#b{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+#bd{
+    color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+#class{
+   /* Frame 2 */
+/* position: absolute; */
+width: 1600px;
+height: 100px;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+
+
+}
 .perent{
 position: static;
 width: 1280px;
@@ -67,6 +103,7 @@ order: 1;
 flex-grow: 0;
 margin: 24px 0px;
 margin-top: 24px;
+color:aliceblue
 }
 #h1{
     color: rgb(14, 14, 14);
@@ -78,4 +115,78 @@ margin-top: 24px;
     text-align: left;
     margin-top: 16px;
     margin-bottom: 24px;
+}
+.perent1{
+    /* Frame 2087325501 */
+position: static;
+width: 1280px;
+height: 324px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+margin-left: 40px;
+
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px ,0px;
+}
+.piller{
+    /* Frame 2087325500 */
+position: static;
+width: 1280px;
+height: 244px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24px;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.innovation{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.h3{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 10px;
+}
+.p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 10px;
 }
