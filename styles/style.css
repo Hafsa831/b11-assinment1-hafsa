@@ -58,7 +58,7 @@ margin: 80px 0px;
 border-radius: 24px;
 
 background: rgb(198, 228, 214);
-margin-left: 40px;
+margin-left: 120px;
 }
 .child{
     /* Frame 3 */
@@ -128,7 +128,7 @@ justify-content: flex-start;
 align-items: flex-start;
 gap: 32;
 padding: 0px;
-margin-left: 40px;
+margin-left: 120px;
 
 
 
@@ -189,4 +189,155 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 margin-left: 10px;
+}
+#pera{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+width: 1280px;
+height: 48px;
+margin top: 12px;
+}
+.card-box{
+   margin-left: 120px;;
+    margin-top: 80px;
+}
+.cardbox-container{
+    
+    /* Frame 2087325500 */
+position: static;
+width: 1280px;
+height:325px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24px;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.cardbox-contant{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+    background: rgb(255, 255, 255);
+}
+.card-img{
+margin-left: 10px;
+margin-top: 10px;
+}
+.card-heading{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-pera{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-btn1{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    margin-top: 48px;
+    color: aliceblue;
+
+}
+.card-btn2{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: aliceblue;
+    margin-top: 48px;
+}
+.card-btn3{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    margin-top: 48px;
+    color: aliceblue;
+}
+#card1{
+    background: rgba(84, 144, 245, 0.2);
+}
+#card2{
+    background: rgb(198, 228, 214);
+}
+#card3{
+    background: rgb(247, 235, 207);
+}
+.cotation{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+/* Frame 2087325495 */
+position: static;
+width: 1280px;
+height: 256px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 48px 24px 48px 24px;
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position-x: 20px;
+background-position-y: 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+}
+#cotation{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+font-weight: 400px;
+margin: 12px 0px;
+width: 1232px;
+height: 96px;
+margin-top: 0px;
+}
+#cotation-heading{
+    font-size: 20px;
+font-weight: 600px;
+line-height: 24px;
+margin-top: 12px;
+margin-bottom: 4px;
+}
+#yunus{
+    font-size: 16px;
+font-weight: 400px;
+margin-top: 4px;
 }
