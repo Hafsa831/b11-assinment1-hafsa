@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Work Sans", serif; */
-
+.website1{
+    width: 1600px;
+    height: 4541px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin:0 auto;
+}
 .main{
 background-color: aliceblue;
 }
@@ -340,4 +357,118 @@ margin-bottom: 4px;
     font-size: 16px;
 font-weight: 400px;
 margin-top: 4px;
+}
+.news{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+#recent{
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom: 12px;
+}
+#recent1{
+    font-size: 16px;
+font-weight: 400;
+width: 1280px;
+height: 48px;
+margin-bottom: 32px;
+}
+.recent-news{
+    /* Frame 2087325509 */
+position: static;
+width: 1280px;
+height: 402px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32px;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+margin-left: 120px;
+}
+#setellite-img{
+    border-radius: 24px;
+    width: 408px;
+height: 306px;
+}
+.lunches{
+    width: 744px;
+height: 38px;
+font-size: 32px;
+font-weight: 700;
+}
+.aljazeer{
+    width: 134px;
+    height: 40px;
+}
+#datetime{
+    width: 744px;
+height: 24px;
+}
+#setellite-pera{
+    font-size: 16px;
+font-weight: 400;width: 744px;
+height: 72px;
+margin-top: 12px;
+}
+#recent-button{
+    width: 139px;
+height: 48px;
+border-radius: 8px;
+font-size: 18px;
+font-weight: 600px;
+background: rgb(0, 106, 80);
+color: aliceblue;
+}
+#setellite2{
+      /* Frame 2087325509 */
+position: static;
+width: 1280px;
+height: 402px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 32px;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+margin-left: 120px;
+}
+#donate{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#donate-1{
+    position: static;
+width: 1280px;
+height: 48px;
+font-size: 40px;
+font-weight: 700;
+align-self: stretch;
 }
