@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 80px;
+    gap: 0px;
     padding: 0px;
     
     /* Inside Auto Layout */
@@ -17,9 +17,17 @@
     align-self: stretch;
     flex-grow: 0;
     margin:0 auto;
+    background-color: aliceblue;
+}
+.header{
+    background-color: aliceblue;
+    align-items: center;
+     
 }
 .main{
 background-color: aliceblue;
+align-items: center;
+
 }
 #b{
     color: rgb(14, 14, 14);
@@ -34,10 +42,12 @@ text-align: left;
     color: rgb(0, 106, 80);
 font-family: Fira Sans;
 font-size: 18px;
-font-weight: 600;
+font-weight: 600px;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+border: 1px solid rgba(14, 14, 14, 0.1);
+
 }
 #class{
    /* Frame 2 */
@@ -51,7 +61,7 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 24px 160px 24px 160px;
-
+margin-bottom: 0px;
 
 }
 .perent{
@@ -76,6 +86,7 @@ border-radius: 24px;
 
 background: rgb(198, 228, 214);
 margin-left: 120px;
+margin-right: 120px;
 }
 .child{
     /* Frame 3 */
@@ -99,7 +110,7 @@ margin: 0px 64px;
 }
 .btn{
     border-radius: 8px;
-
+    border: 1px solid rgba(14, 14, 14, 0.1);
 background: rgb(0, 106, 80);
 /* Frame 2 */
 position: static;
@@ -221,6 +232,7 @@ margin top: 12px;
 .card-box{
    margin-left: 120px;;
     margin-top: 80px;
+    font-family: Fira Sans;
 }
 .cardbox-container{
     
@@ -281,7 +293,7 @@ text-align: left;
     background: rgb(84, 144, 245);
     margin-top: 48px;
     color: aliceblue;
-
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
 .card-btn2{
     width: 122px;
@@ -290,6 +302,7 @@ text-align: left;
     background: rgb(9, 161, 92);
     color: aliceblue;
     margin-top: 48px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
 .card-btn3{
     width: 122px;
@@ -298,6 +311,7 @@ text-align: left;
     background: rgb(255, 194, 57);
     margin-top: 48px;
     color: aliceblue;
+    border: 1px solid rgba(14, 14, 14, 0.1);
 }
 #card1{
     background: rgba(84, 144, 245, 0.2);
@@ -357,6 +371,9 @@ margin-bottom: 4px;
     font-size: 16px;
 font-weight: 400px;
 margin-top: 4px;
+}
+#perent-news{
+    font-family: Fira Sans;
 }
 .news{
     margin-left: 120px;
@@ -433,6 +450,7 @@ font-size: 18px;
 font-weight: 600px;
 background: rgb(0, 106, 80);
 color: aliceblue;
+border: 1px solid rgba(14, 14, 14, 0.1);
 }
 #setellite2{
       /* Frame 2087325509 */
@@ -462,13 +480,172 @@ margin-left: 120px;
 #donate{
    display: flex;
    flex-direction: column;
-   align-items: center;
+   text-align: center;
+   font-family: Fira Sans;
 }
 #donate-1{
-    position: static;
-width: 1280px;
-height: 48px;
+
 font-size: 40px;
 font-weight: 700;
-align-self: stretch;
+
+}
+.donate-2{
+    font-size: 16px;
+font-weight: 400;
+max-width: 1020px;
+margin-left: 320px;
+
+}
+.taka{
+    width: 1071px;
+height: 128px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: static;
+width: 1104px;
+height: 48px;
+margin-left: 320px;
+margin-top: 32px;
+text-align: center;
+}
+.btn-taka{
+    position: static;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+margin-top: 64px;
+margin-right: 24px;
+justify-content: center;
+background: rgb(255, 255, 255);
+font-size: 40px;
+font-weight: 700px;
+}
+#btn-taka{
+    background: rgb(198, 228, 214);
+}
+.input-taka{
+    box-sizing: border-box;
+/* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+background: rgb(255, 255, 255);
+border: 1px solid rgba(14, 14, 14, 0.15);
+width: 1032px;
+height: 64px;
+text-align: center;
+font-size: 20px;
+font-weight: 400px;
+margin-top: 24px;
+margin:120px;
+margin-bottom: 48px;
+}
+.donate-btn{
+    position: static;
+width: 151px;
+height: 56px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+color: aliceblue;
+}
+.perent-subscribe{
+    font-family: Fira Sans;
+}
+#subscribe{
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+/* Frame 2087325517 */
+position: static;
+width: 1280px;
+height: 395px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 64px;
+padding: 80px 100px 80px 100px;
+
+/* Inside Auto Layout */
+
+order: 5;
+margin: 80px 0px;
+margin-left: 120px;
+}
+#subscribe1{
+    position: static;
+width: 750px;
+height: 112px;display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16px;
+text-align: center;
+}
+#subscribe-h4{
+    font-size: 40px;
+font-weight: 700px;
+position: static;
+width: 622px;
+height: 48px;
+gap: 16px;
+margin-bottom:16px ;
+}
+.subscribe-pera{
+    font-size: 16px;
+font-weight: 400;
+margin: 16px 0px;
+align-items: center;
+gap: 16px;
+position: static;
+width: 622px;
+height: 48px;
+margin-top: 16px;
+}
+.email-btn{
+    margin-top: 48px;
+    
+}
+#enter-email{
+    width: 600px;
+height: 55px;
+border-radius: 8px 0px 0px 8px;
+
+background: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+border: 1px solid rgba(14, 14, 14, 0.1);
+}
+#subscribe-btn{
+    border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+width: 150px;
+height: 56px;
+margin:0px 0px;
+color: aliceblue;
+font-size: 18px;
+font-weight: 600;
+border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.we{
+    margin-bottom: 48px;
+}
+.footer{
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700px;
+    position: static;
+
 }
